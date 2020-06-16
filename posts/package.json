@@ -17,5 +17,9 @@
   "repository": {
     "url": "https://github.com/FrankGerold/MicroServices-Blog.git"
     "type": "git"
+  },
+  scripts: {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   }
 }

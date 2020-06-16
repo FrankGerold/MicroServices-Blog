@@ -15,7 +15,7 @@
     "nodemon": "^2.0.4"
   },
   "repository": {
-    "url": "https://github.com/FrankGerold/MicroServices-Blog.git"
+    "url": "https://github.com/FrankGerold/MicroServices-Blog.git",
     "type": "git"
   }
 }

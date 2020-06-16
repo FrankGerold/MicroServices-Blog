@@ -28,5 +28,5 @@ app.post('/posts', (req, res) => {
 
 
 app.listen(3003, () => {
-  console.log('Listening on Port 3003');
+  console.log('Listening on Port 3001');
 })

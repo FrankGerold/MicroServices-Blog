@@ -16,8 +16,22 @@ export default ({ comments }) => {
   // }, [])
 
   const renderedComments = comments.map(comment => {
+    let content;
+
+    switch (comment.status) {
+      case 'approved':
+        content = comment.content;
+        break;
+      case 'pending':
+        content = 'Comment awaiting moderation!'
+        break;
+      case 'rejected':
+        content = 'Comment rejected for profane fruit reference.'
+        break;
+    }
+
     return <li key={comment.id}>
-      {comment.content}
+      {content}
     </li>;
   });
 

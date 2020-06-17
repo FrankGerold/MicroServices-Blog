@@ -30,5 +30,5 @@ app.post('/posts', (req, res) => {
 
 
 app.listen(3001, () => {
-  console.log('Listening on Port 3001');
+  console.log('Post service listening on Port 3001');
 })

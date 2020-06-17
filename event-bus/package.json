@@ -1,0 +1,24 @@
+{
+  "name": "event-bus",
+  "version": "1.0.0",
+  "description": "event broker for microservices tutorial",
+  "main": "index.js",
+  "author": "Frank Gerold",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "url": "https://github.com/FrankGerold/MicroServices-Blog.git",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon -V"
+  }
+}

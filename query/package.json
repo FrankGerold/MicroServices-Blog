@@ -1,0 +1,21 @@
+{
+  "name": "query",
+  "version": "1.0.0",
+  "description": "query service for microservices tutorial",
+  "main": "index.js",
+  "repository": "https://github.com/FrankGerold/MicroServices-Blog.git",
+  "author": "Frank G",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon -V"
+  }
+}

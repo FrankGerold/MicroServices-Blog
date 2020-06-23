@@ -18,7 +18,7 @@
     "type": "git"
   },
   "scripts": {
-    "start": "node",
+    "start": "node index.js",
     "dev": "nodemon -V"
   }
 }

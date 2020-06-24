@@ -15,9 +15,9 @@ app.post('/events', async (req, res) => {
   events.push(event);
 
   await axios.post('http://posts-cluster-ip:3001/events', event);
-  await axios.post('http://localhost:3002/events', event);
-  await axios.post('http://localhost:3003/events', event);
-  await axios.post('http://localhost:3005/events', event);
+  await axios.post('http://comments-service:3002/events', event);
+  await axios.post('http://query-service:3003/events', event);
+  await axios.post('http://moderation-service:3005/events', event);
 
   res.send({ status: 'OK'});
 });

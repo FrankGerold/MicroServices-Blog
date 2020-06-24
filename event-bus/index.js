@@ -14,7 +14,7 @@ app.post('/events', async (req, res) => {
 
   events.push(event);
 
-  await axios.post('http://localhost:3001/events', event);
+  await axios.post('http://posts-cluster-ip:3001/events', event);
   await axios.post('http://localhost:3002/events', event);
   await axios.post('http://localhost:3003/events', event);
   await axios.post('http://localhost:3005/events', event);

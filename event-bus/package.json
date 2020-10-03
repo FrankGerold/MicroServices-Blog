@@ -1,6 +1,6 @@
 {
   "name": "event-bus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "event broker for microservices tutorial",
   "main": "index.js",
   "author": "Frank Gerold",
